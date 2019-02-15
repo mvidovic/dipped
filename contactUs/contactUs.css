@@ -1,0 +1,46 @@
+
+/* jumbotron */
+
+#contactBanner{
+    padding: 0;
+    background: #222 url(../images/aboutUs/aboutUs-banner.jpg) no-repeat 50% top;
+    background-size: cover;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+
+}
+
+.jumbotron-fluid h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+
+.title-overlay-color {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 0 50px 0;
+}
+
+/* end jumbotron */
+
+/* main */
+
+.main {
+    padding: 60px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.main p, .main p a {
+    font-size: 16px;
+}
+
+.main p:hover .material-icons, .main p a:hover, .main .number:hover{
+    color: #fb2f3a;
+}
+
+/* end main */

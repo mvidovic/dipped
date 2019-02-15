@@ -1,0 +1,134 @@
+.body{
+    font-family: Helvetica, Arial, Sans-serif, serif;
+    line-height: 20px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Museo', Rockwell, Serif, serif;
+    color: #333333;
+    margin: 10px 0;
+    line-height: 20px;
+
+}
+
+p, a {
+    color: #7d7d7d;
+    margin: 0 0 10px;
+    font-size: 14px;
+}
+
+h4{
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+}
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    margin-bottom: 40px;
+}
+
+.navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0 30px 0;
+    min-height: 100px;
+    background: transparent;
+}
+.navbar-brand{
+    text-indent: -9999px;
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    height: 57px;
+    width: 127px;
+    margin: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 7px 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:active, .navbar-light .navbar-nav .nav-link:visited, .navbar-light .navbar-nav .nav-link:focus {
+    color:  #fb2f3a;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active{
+    background: rgba(0, 0, 0, 0.7);
+    color:  #fb2f3a;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* footer */
+
+footer {
+    padding: 60px 0;
+}
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer-links li {
+    float: left;
+    margin-right: 40px;
+}
+
+#social {
+    clear: both;
+    margin-bottom: 30px;
+
+}
+
+.social-sprite {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url("images/thumbnail/social-sprite.png") no-repeat left top;
+}
+.twitter {
+     margin-right: 5px;
+    background-color: #569ccd;
+
+ }
+.facebook {
+    margin-right: 5px;
+    background-position: -16px top;
+    background-color: #2272a9;
+}
+
+#social .btn {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: none;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+
+footer small a {
+    color: #fb2f3a;
+}
+
+

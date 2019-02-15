@@ -1,0 +1,110 @@
+
+/* jumbotron */
+
+#servicesBanner {
+    padding: 0;
+    background: #222 url(../images/services/services-banner.jpg) no-repeat 50% top;
+    background-size: cover;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    
+}
+
+.title-overlay-color {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h4 {
+    color: #cccccc;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    padding-bottom: 70px;
+}
+
+.jumbotron-fluid h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+/* end jumbotron */
+
+/* service */
+
+.service {
+    padding: 60px 0;
+}
+
+.service-text {
+    display: block;
+    padding: 0 0 0 60px;
+    text-align: justify;
+}
+
+.service-text p {
+    color: #fb2f3a;
+}
+
+.material-icons {
+    font-size:48px; 
+}
+
+.service:hover .material-icons, .service:active .material-icons, .service:hover h4, .service:active h4{
+    color: #fb2f3a;
+}
+
+.service-text h4 {
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.service-text p {
+    font-weight: 400;
+    line-height: 25px;
+    color: #666666;
+}
+/* end service */
+
+/* solo-banner */
+
+#solo-banner {
+    padding: 60px 0;
+    border-bottom: 1px solid #ddd;
+}
+/* end solo-banner */
+
+/* counter */
+
+.counter {
+    padding: 60px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.counter strong {
+    font-size: 60px;
+}
+
+.count-description {
+    font-size: 20px;
+}
+/* end counter */
+
+/* contact */
+
+.contact {
+    padding: 60px 0;
+    background-color: #fb2f3a; 
+}
+
+.contact h3, .contact h5 {
+    color: white;
+}
+
+.contact button {
+    width: 40%;
+}
+
+/* end contact */
