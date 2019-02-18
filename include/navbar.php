@@ -9,7 +9,7 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-5">
-                <li class="nav-item text-center active">
+                <li class="nav-item">
                     <a class="nav-link" href="../home/home.php">Home</a>
                 </li>
                 <li class="nav-item">
@@ -29,7 +29,13 @@
     </nav> 
 </div><!-- end navbar -->
 
-     
+<script>
+    $(document).ready(function() {
+        $(document).on('click', '.nav-item a', function (e) {
+            $(this).parent().addClass('active').siblings().removeClass('active');
+        });
+    });
+</script>
 
            
 
